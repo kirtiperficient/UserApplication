@@ -6,6 +6,12 @@ public class RegisterModel {
 	private String pswrepeat;
 	private String remember;
 
+	
+	public RegisterModel() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public RegisterModel(String email, String psw, String pswrepeat, String remember) {
 		super();
 		this.email = email;
